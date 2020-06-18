@@ -45,12 +45,14 @@ planets.forEach(planet => {
 function calculateWeight(weight, planetName) {
     // 2. Write the code to return the correct weight
     let newWeight;
+    let statement;
     planets.forEach(planet => {
         if(planet[0] === planetName) {
             newWeight = parseInt(weight) * planet[1];
+            statement = `If you were on ${planetName}, you would weight ${newWeight} lbs!`;
         }
     })
-    return newWeight;
+    return statement;
 }
 
 function handleClickEvent(e) {
