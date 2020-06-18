@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/c1/87/79/c1877907de738b7979fbdb46cdc6706a.jpg');
+    background-size: cover;
+}
+
+input {
+    max-width: 90vw;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.flex-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+}
+
+select {
+    max-width: 90vw;
+    padding: 5px 20px;
+    margin: 20px 0px;
+}
+
+button {
+    max-width: 20vw;
+    align-self: center;
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+p {
+    padding: 5px 20px;
+    align-self: center;
+    background-color: blueviolet;
+    text-align: center;
+}

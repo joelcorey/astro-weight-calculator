@@ -2,10 +2,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
-    <title>Astro Weight Calculator</title>
+		<title>Astro Weight Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
   </head>
   <body>
+
+		<div class="flex-container">
 			<input id="user-weight" type="text" placeholder="Weight (lbs)" />
 			<select id="planets"></select>
 			<button id="calculate-button" onclick="handleClickEvent()"
@@ -14,8 +19,9 @@
 			</button>
 
 			<p id="output"></p>
-
-
-    <script src="main.js" charset="utf-8"></script>
+		</div>
+		
+		<script src="main.js" charset="utf-8"></script>
+		
   </body>
 </html>

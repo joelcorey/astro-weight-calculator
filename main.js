@@ -51,6 +51,7 @@ function handleClickEvent(e) {
    
     // 5. Create a variable called result and assign the value of the new calculated weight.
     let result = calculateWeight(userWeight, planetName);
+    if(Number.isNaN(result)) result = "Please input a proper weight";
 
     // 6. Write code to display the message shown in the screenshot.
     document.getElementById('output').innerHTML = result;
